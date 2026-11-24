@@ -5,8 +5,8 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 
-SPAM_CHANNEL = ["FUCKED BY VISHALL XD”]
-SPAM_MESSAGE = ["@everyone FUCKING JOIN THIS SERVER FOR RECOVERY https://discord.gg/UFvjK5Uy5e"]
+SPAM_CHANNEL = [FUCKED BY VISHALL XD]
+SPAM_MESSAGE = [@everyone FUCKING JOIN THIS SERVER FOR RECOVERY https://discord.gg/UFvjK5Uy5e]
 
 client = commands.Bot(command_prefix=",")
 
