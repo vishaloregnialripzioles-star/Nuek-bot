@@ -4,6 +4,10 @@ import random
 from discord import Permissions
 from colorama import Fore, Style
 import asyncio
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 intents = discord.Intents.default()
 
@@ -98,4 +102,9 @@ async def on_guild_channel_create(channel):
   while True:
     await channel.send(random.choice(SPAM_MESSAGE))
 
-client.run("YOUR_BOT_TOKEN")
+token = os.getenv("DISCORD_TOKEN")
+
+if not token:
+    raise RuntimeError("DISCORD_TOKEN is missing")
+
+client.run(token)
