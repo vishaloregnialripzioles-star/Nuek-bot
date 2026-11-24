@@ -73,8 +73,7 @@ Fore.RESET)
         print(Fore.RED + f" [-] {user.name}#{user.discriminator}Was Unbanned." +
 Fore.RESET)
       except:
-        print(Fore.BLUE + f" [+] 
-{user.name}#{user.discriminator} Was Not Unbanned." + 
+        print(Fore.BLUE + f" [+] {user.name}#{user.discriminator} Was Not Unbanned." + 
 Fore.RESET)
     await guild.create_text_channel("vishals nukebot")
     for channel in guild.text_channels:
