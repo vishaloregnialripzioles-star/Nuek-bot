@@ -8,9 +8,8 @@ import asyncio
 SPAM_CHANNEL = ["Fucked by Vishall XD"]
 SPAM_MESSAGE = ["@everyone Joining a recovery server: https://discord.gg/UFvjK5Uy5e"]
 
-client = commands.Bot(command_prefix=",",
-    intents=intents
-                     )
+client = commands.Bot(command_prefix=","
+)
 
 @client.event
 async def on_ready():
