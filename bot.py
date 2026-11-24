@@ -44,8 +44,7 @@ Fore.RESET)
        print(Fore.BLUE + f" [+] {member.name}#{member.discriminator} Was Banned" + 
 Fore.RESET)
      except:
-       print(Fore.BLUE + f" [-]
-{member.name}#{member.discriminator} Was Not Banned." + 
+       print(Fore.BLUE + f" [-] {member.name}#{member.discriminator} Was Not Banned." + 
 Fore.RESET)
     for role in guild.roles:
      try:
