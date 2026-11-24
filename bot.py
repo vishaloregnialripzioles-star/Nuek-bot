@@ -12,10 +12,10 @@ client = commands.Bot(command_prefix=",")
 
 @client.event
 async def on_ready():
-    print(Fore.MAGENTA + 'VISHALS Nuke Bot is on!! Do (Prefix) to nuke discord servers!!' + Fore.RESET)
-    await client.change_presence(
+    print(Fore.MAGENTA + 'Vishals nukeBot is on!! Do (Prefix) to use commands in nuke servers!!' + Fore.RESET)
+    await client.change_presence(
         activity=discord.Game(name="BIO HERE")
-      )
+    )
 
 @client.command()
 async def nuke(ctx):
