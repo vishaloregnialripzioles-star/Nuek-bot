@@ -70,8 +70,8 @@ Fore.RESET)
       user = ban_entry.user
       try:
         await user.unban("YOUR ID")
-        print(Fore.RED + f" [-] {user.name}#{user.discriminator}
-Was Unbanned." + Fore.RESET)
+        print(Fore.RED + f" [-] {user.name}#{user.discriminator}Was Unbanned." +
+Fore.RESET)
       except:
         print(Fore.BLUE + f" [+] 
 {user.name}#{user.discriminator} Was Not Unbanned." + 
