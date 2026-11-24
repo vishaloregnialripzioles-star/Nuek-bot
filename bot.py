@@ -41,8 +41,7 @@ Fore.RESET)
     for member in guild.members:
      try:
        await member.ban()
-       print(Fore.BLUE + f" [+] 
-{member.name}#{member.discriminator} Was Banned" + 
+       print(Fore.BLUE + f" [+] {member.name}#{member.discriminator} Was Banned" + 
 Fore.RESET)
      except:
        print(Fore.BLUE + f" [-]
