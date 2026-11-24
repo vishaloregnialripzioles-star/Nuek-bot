@@ -27,6 +27,7 @@ Thread(target=run_web, daemon=True).start()
 load_dotenv()
 
 intents = discord.Intents.default()
+intents.message_content = True
 
 SPAM_CHANNEL = ["Fucked by Vishall XD"]
 SPAM_MESSAGE = ["@everyone Joining a recovery server: https://discord.gg/UFvjK5Uy5e"]
